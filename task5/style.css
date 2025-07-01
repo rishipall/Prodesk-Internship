@@ -1,0 +1,127 @@
+*{
+margin: 0; 
+padding: 0; 
+box-sizing: border-box; 
+font-family: gilroy; 
+} 
+html,body{ 
+height: 100%; 
+width: 100%; 
+} 
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 3rem 4rem;
+
+}
+.nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    list-style: none;
+   
+
+}
+.w{
+    font-size: 2rem;
+    font-weight:900;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    transition: all ease-in ;
+    
+}
+.nav ul li a:hover{
+    border-bottom:2px solid red ;
+}
+
+main{
+    padding-top: 2rem;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    gap: 3rem;
+}
+.left{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.left img{
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+    
+}
+.right{
+    
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+   
+}
+
+
+.right h1{
+    color: orange;
+}
+.left .bottom{
+    padding-top: 0.5rem;
+    display: flex;
+    gap: 2rem;
+}
+.left .bottom .h{
+    font-weight: 900;
+    
+    
+}
+.left .bottom .p{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+.left .bottom .p button{
+    padding: 5px 10px;
+    background-color: rgb(236, 105, 105);
+    border: none;
+    border-radius: 2px;
+    width: fit-content;
+    font-size: 1.2rem;
+}
+
+footer{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+footer .cards {
+    display: flex;
+   gap: 0.5rem;
+    
+}
+footer .cards  img{
+    width: 40%;
+    aspect-ratio: 1.5/1.5;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.cards div p:first-child{
+    color: red;
+}
